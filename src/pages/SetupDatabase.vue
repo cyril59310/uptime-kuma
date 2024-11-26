@@ -38,7 +38,7 @@
                         <input id="btnradio3" v-model="dbConfig.type" type="radio" class="btn-check" autocomplete="off" value="embedded-mariadb">
 
                         <label class="btn btn-outline-primary" for="btnradio3">
-                            Embedded MariaDB
+                            {{ $t("EmbeddedMariaDB") }}
                         </label>
                     </template>
 
